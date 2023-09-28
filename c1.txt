@@ -5,3 +5,12 @@ how about it.
 added aeede
 hii
 check this
+
+
+public void iterateUsingIteratorAndValues(Map<String, Integer> map) {
+    Iterator<Integer> iterator = map.values().iterator();
+    while (iterator.hasNext()) {
+        Integer value = iterator.next();
+        System.out.println("value :" + value);
+    }
+}
